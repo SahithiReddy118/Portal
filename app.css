@@ -1,0 +1,64 @@
+.container {
+    width: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.header {
+    
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-width: thin;
+   }
+   
+.header .title{
+    font-size: 25px;
+    cursor: pointer;
+    color: rgb(3, 3, 146);
+   }
+.header .items > div {
+    width: 35px;
+    height: 5px;
+    background-color: rgb(39, 180, 39);
+    margin: 6px 0;
+  }
+  div.card {
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: left;
+    height: 100%;
+  }
+  .card > img {
+    height: 70%;
+  }
+  
+  div.content {
+    padding: 10px;
+    
+  }
+#first {
+    background-color: rgb(2, 2, 170);
+    height: 6%;
+    width: 15%;
+    color: azure;
+    float: left;
+    
+}
+#sec {
+    background-color: rgb(28, 175, 28);
+    color:azure;
+    height: 8%;
+    width: 15%;
+    float: left;
+}
+.content > h4 {
+    color: rgb(4, 4, 196);
+}
+div.card2 {
+    width: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 2%;
+  }
+  
